@@ -7,7 +7,10 @@ using namespace std;
 
 double EnterNumberX()
 {
-    return 0;
+    double x;
+cin >> x;
+return x;
+
 }
 
 double EnterNumberY()
