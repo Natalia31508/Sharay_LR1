@@ -43,7 +43,7 @@ int main() {
     {
         cout << "Task 1. Vvedite polozitejnoe chislo X" << endl;
         cout << "Task 2. Vvedite polozitejnoe chislo Y" << endl;
-        cout << "Task 3. Vichislete sr. arefmiticheskoe chislo" << endl;
+        cout << "Task 3. Vichislete sr. arifmiticheskoe chislo" << endl;
         cout << "Task 4. Vichislete sr. geometricheskoe" << endl;
         cout << endl << "Please enter the number of the desired function or 0 if you want to close the app: ";
 
@@ -62,9 +62,15 @@ int main() {
         break;
           case 3:
         a = CalcArith(x, y);
+
+cout << "sr. arifmiticheskoe: " << a << endl;
+
         break;
           case 4:
         g = CalcGeom(x, y);
+        
+cout << "sr. geometricheskoe: " << g << endl;
+
         break;
         default:
            return 0;
