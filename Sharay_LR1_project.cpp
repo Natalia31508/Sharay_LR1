@@ -15,7 +15,10 @@ return abs(x);
 
 double EnterNumberY()
 {
-    return 0;
+    double y;
+cin >> y;
+return abs(y);
+
 }
 
 double CalcArith(double num_x, double num_y)
