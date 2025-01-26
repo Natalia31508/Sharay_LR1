@@ -7,9 +7,9 @@ using namespace std;
 
 double EnterNumberX()
 {
-    double x;
+   double x;
 cin >> x;
-return x;
+return abs(x);
 
 }
 
