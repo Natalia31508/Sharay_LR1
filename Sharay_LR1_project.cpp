@@ -23,12 +23,12 @@ return abs(y);
 
 double CalcArith(double num_x, double num_y)
 {
-    return 0;
+    return (num_x+ num_y)/2;
 }
 
 double CalcGeom(double num_x, double num_y)
 {
-    return 0;
+    return sqrt(num_x * num_y);
 }
 
 int main() {
